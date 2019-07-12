@@ -16,7 +16,7 @@ namespace AvaloniaDataGrid
 #endif
             var viewModel = new MainWindowViewModel();
 
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 1; i++)
             {
                 viewModel.Items.Add(new Person($"Person {i.ToString()}"));
             }
